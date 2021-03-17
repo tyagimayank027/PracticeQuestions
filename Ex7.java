@@ -12,7 +12,7 @@ public class Ex7 {
 		int avg=0;
 		Set<Map.Entry<Integer,Integer>> entries = h1.entrySet();
 		for (Map.Entry<Integer, Integer> entry : entries) {
-			if (entry.getKey()%2==0) {
+			if (entry.getKey()%2!=0) {
 				avg=avg+1;
 				 sum=sum+entry.getValue();
 			}
